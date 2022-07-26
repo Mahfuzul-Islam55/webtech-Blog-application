@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "b27da8d8-308e-46be-9d0e-c9b3044683a6",
+		"name": "shimul",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15699527"
+	},
+	"item": [
+		{
+			"name": "registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Shimul1\",\n    \"email\": \"shimul1@gmail.com\",\n    \"username\": \"shimul1\",\n    \"password\": \"shimul1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/services/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"services",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registration",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Shimul1\",\n    \"email\": \"shimul1@gmail.com\",\n    \"username\": \"shimul1\",\n    \"password\": \"shimul1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/services/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "174"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ae-F+iGd8ddzJe2MbElmOOOHksf+ho\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 23 Jul 2022 18:03:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Successfully Created User\"\n}"
+				}
+			]
+		},
+		{
+			"name": "update user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Shimuls1\",\n    \"email\": \"shimul1@gmail.com\",\n    \"username\": \"shimul1\",\n    \"password\": \"shimul1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/services/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"services",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registration",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Shimul1\",\n    \"email\": \"shimul1@gmail.com\",\n    \"username\": \"shimul1\",\n    \"password\": \"shimul1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/services/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "174"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ae-F+iGd8ddzJe2MbElmOOOHksf+ho\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 23 Jul 2022 18:03:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Successfully Created User\"\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"shimul@gmail.com\",\n    \"password\" : \"shimul\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/services/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"services",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" : \"shimul@gmail.com\",\n    \"password\" : \"shimul\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/services/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "292"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"124-uoRPUxH4PlSVCLzFKGAmnIH6MF8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 23 Jul 2022 18:06:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Success\",\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsiaWQiOjEsIm5hbWUiOiJTaGltdWwiLCJlbWFpbCI6InNoaW11bEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6InNoaW11bCIsInBob25lIjpudWxsfSwiaWF0IjoxNjU4NTk5NTc0LCJleHAiOjE2NTg2MTc1NzR9.RDxO-xhuTA3D0S77CPwyNkogDdIrkSJdzuEVdg6gxMg\"\n}"
+				}
+			]
+		},
+		{
+			"name": "all blogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/services/post/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"services",
+						"post",
+						"all"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "all blogs",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/services/post/all",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								"post",
+								"all"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"36-RdVuUXN2LCEC7ZP+PVsMcSmZNaI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 23 Jul 2022 20:01:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Successfully get  all services\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"title\": \"Hello Testing\",\n            \"body\": \"const bootstrap = require('bootstrap') or import bootstrap from 'bootstrap' will load all of Bootstrap’s plugins onto a bootstrap object. The bootstrap module itself exports all of our plugins. You can manually load Bootstrap’s plugins individually by loading the /js/dist/*.js files under the package’s top-level directory.\",\n            \"user_id\": 1,\n            \"created_at\": \"2022-07-23T21:14:56.000Z\",\n            \"updated_at\": \"2022-07-23T21:14:56.000Z\",\n            \"user_name\": \"Shimul\",\n            \"user_email\": \"shimul@gmail.com\"\n        },\n        {\n            \"id\": 3,\n            \"title\": \"The Code\",\n            \"body\": \"const StyledInputBase = styled(InputBase)(({ theme }) => ({\\n  color: \\\"inherit\\\",\\n  \\\"& .MuiInputBase-input\\\": {\\n    padding: theme.spacing(1, 1, 1, 0),\\n    // vertical padding + font size from searchIcon\\n    paddingLeft: `calc(1em + ${theme.spacing(4)})`,\\n    transition: theme.transitions.create(\\\"width\\\"),\\n    width: \\\"100%\\\",\\n    [theme.breakpoints.up(\\\"md\\\")]: {\\n      width: \\\"20ch\\\",\\n    },\\n  },\\n}));\",\n            \"user_id\": 1,\n            \"created_at\": \"2022-07-23T21:24:59.000Z\",\n            \"updated_at\": \"2022-07-23T21:24:59.000Z\",\n            \"user_name\": \"Shimul\",\n            \"user_email\": \"shimul@gmail.com\"\n        },\n        {\n            \"id\": 4,\n            \"title\": \"SDasdasd\",\n            \"body\": \"asdasdsad as dbfjha lghsad;kgsd\\nsd'g\\nsdklgh ashdgjhsldkjg sd\\n4g'asd'gkla;sdhlkgs\",\n            \"user_id\": 1,\n            \"created_at\": \"2022-07-23T21:39:26.000Z\",\n            \"updated_at\": \"2022-07-23T21:39:26.000Z\",\n            \"user_name\": \"Shimul\",\n            \"user_email\": \"shimul@gmail.com\"\n        },\n        {\n            \"id\": 5,\n            \"title\": \"Redirect a Webpage\",\n            \"body\": \"Let's first make it clear what's going on.\\n\\nMySQL 8 has supports pluggable authentication methods. By default, one of them named caching_sha2_password is used rather than our good old mysql_native_password (source). It should be obvious that using a crypto algorithm with several handshakes is more secure than plain password passing that has been there for 24 years!\\n\\nNow, the problem is mysqljs in Node (the package you install with npm i mysql and use it in your Node code) doesn't support this new default authentication method of MySQL 8, yet. The issue is in here: https://github.com/mysqljs/mysql/issues/1507 and is still open, after 3 years, as of July 2019.\\n\\nUPDATE June 2019: There is a new PR in mysqljs now to fix this!\",\n            \"user_id\": 1,\n            \"created_at\": \"2022-07-23T21:40:17.000Z\",\n            \"updated_at\": \"2022-07-23T21:40:17.000Z\",\n            \"user_name\": \"Shimul\",\n            \"user_email\": \"shimul@gmail.com\"\n        },\n        {\n            \"id\": 6,\n            \"title\": \"My Task\",\n            \"body\": \"Your duty\",\n            \"user_id\": 10,\n            \"created_at\": \"2022-07-23T22:01:18.000Z\",\n            \"updated_at\": \"2022-07-23T22:01:18.000Z\",\n            \"user_name\": \"1234567\",\n            \"user_email\": \"1234567\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "user profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/services/profile",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"services",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
